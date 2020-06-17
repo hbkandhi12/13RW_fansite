@@ -5,27 +5,49 @@
     <meta name="Keywords" content="13 Reasons, Hannah Baker, Clay Jensen ,Netflix Originals">
     <meta name="Description" content="13 Reasons Why Fan Blog">
     <meta name="author" content="Hima Reddy">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <div class="view" style="background-image: url('media/13RW_S3.jpeg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="store.html">Store</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-      <h1>13 Reasons Why<h1>
-        <button type="button">Get the latest updates here</button>
+       <div class="mask rgba-gradient align-items-center">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+          <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+              <ul class="navbar-nav mr-auto list-inline">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="store.html">Store</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+     <h1 class="h1-responsive font-weight-bold text-center text-capitalize">13 Reasons Why</h1>
+        <div class="text-center">
+        <button class="button-update" type="button">Get the latest updates here</button>
         <br>
         <br>
-        <!-- TODO:get a hero picture here-->
         <button type="button">&#9658;</button>
+      </div>
     </header>
+   
       <section>
-        <h2>Written Updates: Season 1</h2>
+        <h2 class="text-center">Written Updates: Season 1</h2>
         <div>
-          <div>
+          <div class="div episode text-left">
             <strong>Episode 1</strong>
             &lt;&gt;
             <span>Tape 1, Side A</span>
@@ -35,7 +57,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-right">
             <strong>Episode 2</strong>
             &lt;&gt;
             <span>Tape 1, Side B</span>
@@ -45,7 +67,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-left">
             <strong>Episode 3</strong>
             &lt;&gt;
             <span>Tape 2, Side A</span>
@@ -55,7 +77,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-right">
             <strong>Episode 4</strong>
             &lt;&gt;
             <span>Tape 2, Side B</span>
@@ -65,7 +87,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-left">
             <strong>Episode 5</strong>
             &lt;&gt;
             <span>Tape 3, Side A</span>
@@ -75,7 +97,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-right">
             <strong>Episode 6</strong>
             &lt;&gt;
             <span>Tape 3, Side B</span>
@@ -85,7 +107,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-left">
             <strong>Episode 7</strong>
             &lt;&gt;
             <span>Tape 4, Side A</span>
@@ -95,7 +117,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-right">
             <strong>Episode 8</strong>
             &lt;&gt;
             <span>Tape 4, Side B</span>
@@ -105,7 +127,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-left">
             <strong>Episode 9</strong>
             &lt;&gt;
             <span>Tape 5, Side A</span>
@@ -115,7 +137,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-right">
             <strong>Episode 10</strong>
             &lt;&gt;
             <span>Tape 5, Side B</span>
@@ -125,7 +147,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-left">
             <strong>Episode 11</strong>
             &lt;&gt;
             <span>Tape 6, Side A</span>
@@ -135,7 +157,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-right">
             <strong>Episode 12</strong>
             &lt;&gt;
             <span>Tape 6, Side B</span>
@@ -145,7 +167,7 @@
             <button type="button">Read Update</button>
             <hr>
           </div>
-          <div>
+          <div class="div episode text-left">
             <strong>Episode 13</strong>
             &lt;&gt;
             <span>Tape 7, Side A</span>
@@ -159,7 +181,7 @@
       </section>
       <footer>
         <h3>Also we are available on:</h3>
-        <ul>
+        <ul class="list-inline">
           <li>
             <a href="https://www.facebook.com/" target="_blank">
             <img src="media/facebooklogo.png">
@@ -177,5 +199,6 @@
           </li>
         </ul>
       </footer>
+    </div>
   </body>
 </html>
